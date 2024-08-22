@@ -1,0 +1,65 @@
+.tasklist-container {
+    background-color: white;
+    color: royalblue;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .tasklist-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .fetch-button {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .fetch-button:hover {
+    background-color: #0033cc;
+    transform: scale(1.05);
+  }
+  
+  .tasklist-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  .tasklist-table th, .tasklist-table td {
+    padding: 12px;
+    border: 1px solid royalblue;
+  }
+  
+  .tasklist-table th {
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .tasklist-table td {
+    background-color: #f9f9f9;
+    color: royalblue;
+  }
+  
+  .tasklist-table tr:nth-child(even) {
+    background-color: #e0e0e0;
+  }
+  
+  .tasklist-table tr:hover {
+    background-color: #d1e0ff;
+  }
+  
